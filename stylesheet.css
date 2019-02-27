@@ -3,11 +3,33 @@ body {
   align-items: center;
 }
 
+.container {
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+}
+
+.icon_container {
+  height: 50px;
+  display: flex;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+}
 
 
-
-
+.icon img {
+  max-height: 100%;
+}
 
 .news{
+  background-color: #ffffff;
+}
+
+.contents_menu {
   background-color: #ffffff;
 }
