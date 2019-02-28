@@ -14,9 +14,13 @@ header {
   padding: 10px 0;
 }
 
+.header_image {
+  margin-right: 100px;
+}
+
 .service_container {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 a { 
@@ -41,15 +45,16 @@ a:hover {
 　
 a:active {
   color: #000000;
-}　
+}
 
 .header_text {
-  text-align: left;
+  text-align: center;
 }
 
 .icon_container {
   height: 50px;
   display: flex;
+  justify-content: center;
 }
 
 .icon {
@@ -57,13 +62,36 @@ a:active {
   height: 50px;
 }
 
-
 .icon img {
   max-height: 100%;
 }
 
+.menu {
+  display: block;
+  font-size: 0;
+}
+
+.contents {
+  padding: 19px 0;
+}
+
 .news {
   background-color: #ffffff;
+  padding: 19px;
+}
+
+.news p {
+  display: inline-block;
+  padding-left: 2px;
+}
+
+.news_content {
+  display: flex;
+  justify-content: left;
+}
+
+.bbq2016 {
+  padding: 3px 10px 10px 0;
 }
 
 .contents_menu {
